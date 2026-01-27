@@ -70,8 +70,8 @@ export default function Auth({ onSubmitSuccess }: AuthProps) {
                     }
                 >
                     <div className={style["auth-box-logo"]}>
-                        <Image className={'d-lg-block d-none'} src={'/images/full-logo.png'} alt={'Logo'} width={350} height={100} />
-                        <Image className={'d-lg-none d-block'} src={'/images/full-logo.png'} alt={'Logo'} width={230} height={100} />
+                        <Image style={{filter : 'invert(100%) sepia(100%) saturate(100%) hue-rotate(0deg)'}} className={'d-lg-block d-none'} src={'/images/full-logo.png'} alt={'Logo'} width={350} height={100} />
+                        <Image style={{filter : 'invert(100%) sepia(100%) saturate(100%) hue-rotate(0deg)'}} className={'d-lg-none d-block'} src={'/images/full-logo.png'} alt={'Logo'} width={230} height={100} />
                     </div>
 
                     <form onSubmit={handleSubmit}>
