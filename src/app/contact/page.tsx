@@ -50,7 +50,7 @@ export default async function ContactPage() {
                                 <div className="">
                                     تماس
                                     <div className="d-flex flex-wrap align-content-center justify-content-between mt-3">
-                                        <a className="first-color" href="tel:02147000740">02147000740</a>
+                                        <a className="first-color" href="tel:02147000711">02147000711</a>
                                     </div>
                                 </div>
                             </ul>
